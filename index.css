@@ -7,10 +7,13 @@ body {
 }
 
 .order-summary{
+    display: grid;
+    justify-items: center;
     width: 300px;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 25px;
 }
 
 .hero{
@@ -18,14 +21,30 @@ body {
 }
 
 .main-p{
+    display: flex;
     width: 250px;
     height: 80px;
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
 }
 
 .plan{
+    display: flex;
+    align-items: center;
     width: 250px;
+    height: 50px;
+    margin-top: -10px;
 }
 
 .pay{
     width: 250px;
+    padding-top: 0px;
 }
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
